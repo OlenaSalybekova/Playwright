@@ -1,6 +1,6 @@
 
 const { test } = require('@playwright/test');
-const { SignupPage } = require('../tests/Signup_page.js');
+const { SignupPage } = require('../POM /Signup_page.js');
 const { saveCredentials } = require('../saveCredentials.js');
 
 test('Signup with random credential', async ({ page }) => {
